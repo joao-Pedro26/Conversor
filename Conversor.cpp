@@ -4,20 +4,21 @@ int main () {
          float C;
          int op;
          
-         printf("Escolha sua converÃ§Ã£o:\n\n");
-         printf("|1| ConversÃ£o ÂºC => ÂºF\n");
-         printf("|2| ConversÃ£o ÂºC => K\n\n");
+         printf("Escolha sua conversao:\n\n");
+         printf("|1| Conversao ºC => ºF\n");
+         printf("|2| Conversao ºC => K\n\n");
          scanf ("%d", & op);
          
          
          if (op == 1) {
-         printf("Digite a temperatura em Â°C: ");
+         printf("Digite a temperatura em °C: ");
          scanf("%f", &C);
          float F = C * 1.8 + 32;
-         printf ("A temperatura %.1fÂ°C em ÂºF Ã© %.1f", C, F);
+         printf ("A temperatura %.1f°C em ºF é %.1f", C, F);
          } 
          else if (op == 2){
              
          }
     
     }
+
