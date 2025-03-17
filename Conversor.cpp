@@ -5,16 +5,16 @@ int main () {
          int op;
          
          printf("Escolha sua conversao:\n\n");
-         printf("|1| Conversao ºC => ºF\n");
-         printf("|2| Conversao ºC => K\n\n");
+         printf("|1| Conversao ï¿½C => ï¿½F\n");
+         printf("|2| Conversao ï¿½C => K\n\n");
          scanf ("%d", & op);
          
-         
+         //hahaha
          if (op == 1) {
-         printf("Digite a temperatura em °C: ");
+         printf("Digite a temperatura em ï¿½C: ");
          scanf("%f", &C);
          float F = C * 1.8 + 32;
-         printf ("A temperatura %.1f°C em ºF é %.1f", C, F);
+         printf ("A temperatura %.1fï¿½C em ï¿½F ï¿½ %.1f", C, F);
          } 
          else if (op == 2){
              
